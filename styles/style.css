@@ -1,1 +1,13 @@
 /* место для вашего кода */
+body {
+  font-weight: 400;
+  background-color: #fff;
+}
+
+address {
+  font-style: normal;
+}
+
+.header__logo-image {
+  width: 130px;
+}
