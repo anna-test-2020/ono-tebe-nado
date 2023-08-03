@@ -1,7 +1,9 @@
 /* место для вашего кода */
-body {
+.page {
   font-weight: 400;
   background-color: #fff;
+  max-width: 1440px; /* убрать */
+  margin: 0 auto; /* убрать */
 }
 
 address {
@@ -10,4 +12,15 @@ address {
 
 .header__logo-image {
   width: 130px;
+}
+
+.footer__links {
+  display: flex;
+  gap: 0 48px;
+  list-style: none;
+}
+
+.footer__links img {
+  width: 48px;
+  height: 48px;
 }
