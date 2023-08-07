@@ -235,6 +235,21 @@ address {
   line-height: 120%; /* 24px */
 }
 
+.lots__readmore {
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 30px 0 0 40px;
+}
+
+.lots__readmore-link {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+}
+
 
 .footer__links {
   display: flex;
