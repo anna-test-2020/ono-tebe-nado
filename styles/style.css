@@ -144,14 +144,31 @@ address {
   display: block;
 }
 
+.aligned-text_left .letter-spacing-extended {
+  padding-left: 30px;
+}
+
 .aligned-text_center {
   text-align: center;
   margin-top: 12px;
   margin-bottom: 5px;
 }
 
+.aligned-text_center .letter-spacing-extended {
+  padding-left: 30px;
+  letter-spacing: 60px;
+}
+
 .aligned-text_right {
   text-align: right;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
+.aligned-text_right .letter-spacing-extended {
+  padding-right: 30px;
 }
 
 .cover__description {
