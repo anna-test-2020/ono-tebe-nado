@@ -22,7 +22,7 @@
 }
 
 .header__links-item {
-  font-family: Raleway;
+  font-family: Raleway, serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -66,7 +66,7 @@ address {
 
 .address {
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -116,7 +116,7 @@ address {
 .cover__title {
   color: #fff;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: Raleway;
+  font-family: Raleway, serif;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
@@ -165,7 +165,7 @@ address {
 .cover__description-text {
   color: #fff;
   text-align: center;
-  font-family: Raleway;
+  font-family: Raleway, serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -181,7 +181,7 @@ address {
   max-width: 257px;
   color: #fff;
   text-align: center;
-  font-family: Raleway;
+  font-family: Raleway, serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -196,7 +196,7 @@ address {
 
 .lots__title {
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -232,7 +232,7 @@ address {
 
 .lots__item-title {
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -247,7 +247,7 @@ address {
 
 .lots__item-text {
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -255,7 +255,7 @@ address {
 }
 
 .lots__readmore {
-  font-family: Raleway;
+  font-family: Raleway, serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -298,7 +298,7 @@ address {
 .about__title {
   margin-bottom: 100px;
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -311,7 +311,7 @@ address {
   flex-direction: column;
   gap: 25px;
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -339,7 +339,7 @@ address {
 }
 
 .footer__links-item {
-  font-family: Raleway;
+  font-family: Raleway, serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
