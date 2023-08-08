@@ -6,8 +6,6 @@
 .page {
   font-weight: 400;
   background-color: #fff;
-  max-width: 1440px; /* убрать */
-  margin: 0 auto; /* убрать */
 }
 
 .header {
@@ -51,8 +49,6 @@
 
 .header__links-list-item_no-bullit::before {
   content: "";
-  width: 0;
-  height: 0;
   margin: 0;
 }
 
@@ -108,19 +104,8 @@ address {
   left: 0;
 }
 
-/* .cover::before {
-  background-color: rgb(0 0 0 / 0.6);
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-} */
-
 .cover__content {
   position: relative;
-  /* z-index: 1; */
   display: flex;
   height: 100%;
   flex: 1 0 100%;
@@ -135,7 +120,7 @@ address {
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
-  line-height: 115%; /* 115px */
+  line-height: 115%;
   letter-spacing: 30px;
   text-transform: uppercase;
 }
@@ -184,7 +169,7 @@ address {
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 127%;
   text-transform: uppercase;
   margin-right: 78px;
   word-spacing: 18px;
@@ -251,7 +236,7 @@ address {
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
-  line-height: 120%; /* 26.4px */
+  line-height: 120%;
   text-transform: uppercase;
 }
 
@@ -266,7 +251,7 @@ address {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 120%; /* 24px */
+  line-height: 120%;
 }
 
 .lots__readmore {
@@ -317,7 +302,7 @@ address {
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
-  line-height: 47px;
+  line-height: 118%;
   text-transform: uppercase;
 }
 
@@ -349,7 +334,6 @@ address {
 }
 
 .footer__links-list {
-  /* display: flex; */
   list-style: none;
   text-align: center;
 }
