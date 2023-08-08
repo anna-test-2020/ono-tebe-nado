@@ -12,10 +12,13 @@
 
 .header {
   min-height: 200px;
-  padding: 92px 50px;
+  padding: 87px 50px 92px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
+}
+
+.header__menu {
 }
 
 .header__links-list {
@@ -61,25 +64,28 @@
 }
 
 .header__logo-image {
-  width: 130px;
+  width: 136px;
 }
 
 address {
   font-style: normal;
 }
 
-.header__address {
-  max-width: 240px;
+.address {
   color: #000;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 135%;
+}
+
+.header__address {
+  max-width: 240px;
   justify-self: right;
 }
 
-.header__address-link {
+.address-link {
   text-decoration: none;
   border-bottom: 1px solid #000;
   color: #000;
@@ -92,6 +98,7 @@ address {
   flex-direction: column;
   background-image: url(../images/cover.jpg);
   background-size: cover;
+  background-position: center;
   padding: 165px 50px 50px;
 }
 
@@ -142,6 +149,8 @@ address {
 
 .aligned-text_center {
   text-align: center;
+  margin-top: 12px;
+  margin-bottom: 5px;
 }
 
 .aligned-text_right {
@@ -164,7 +173,7 @@ address {
   line-height: 28px;
   text-transform: uppercase;
   margin-right: 78px;
-  word-spacing: 20px;
+  word-spacing: 18px;
 }
 
 .bet-button {
@@ -263,8 +272,9 @@ address {
 
 .about {
   display: grid;
-  grid-template-columns: 430px minmax(min-content, max-content);
-  margin-bottom: 180px;
+  grid-template-columns: 1fr 2fr;
+  gap: 25px;
+  padding: 0 50px 90px;
 }
 
 .about__logo {
@@ -293,7 +303,7 @@ address {
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
+  line-height: 47px;
   text-transform: uppercase;
 }
 
@@ -304,16 +314,55 @@ address {
   color: #000;
   font-family: Raleway;
   font-size: 20px;
-  line-height: 23px;
   font-style: normal;
   font-weight: 400;
-  /* line-height: normal; */
+  line-height: normal;
+}
+
+.footer {
+  min-height: 200px;
+  padding: 90px 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: start;
+}
+.footer__address {
+  max-width: 240px;
+}
+
+.footer__menu {
+  justify-self: center;
+}
+
+.footer__links-list {
+  /* display: flex; */
+  list-style: none;
+  text-align: center;
+}
+
+.footer__links-item {
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer__link {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+}
+
+.footer__link_active {
+  border-bottom: none;
 }
 
 .footer__links {
   display: flex;
   gap: 0 48px;
   list-style: none;
+  justify-self: end;
 }
 
 .footer__links img {
