@@ -34,6 +34,11 @@
 .header__link {
   color: #000;
   text-decoration: none;
+  border-bottom: 1px solid #000;
+}
+
+.header__link_active {
+  border-bottom: none;
 }
 
 .header__links-item::before {
@@ -49,10 +54,6 @@
   width: 0;
   height: 0;
   margin: 0;
-}
-
-.header__link_active {
-  text-decoration: underline;
 }
 
 .header__logo {
@@ -258,6 +259,55 @@ address {
   color: #000;
   text-decoration: none;
   border-bottom: 1px solid #000;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 430px minmax(min-content, max-content);
+  margin-bottom: 180px;
+}
+
+.about__logo {
+  width: 240px;
+  height: 240px;
+  background-color: #000;
+  border-radius: 50%;
+  display: flex;
+  justify-self: center;
+}
+
+.about__logo-image {
+  width: 148px;
+  height: 148px;
+  margin: auto;
+}
+
+.about__content {
+  padding-top: 100px;
+}
+
+.about__title {
+  margin-bottom: 100px;
+  color: #000;
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: #000;
+  font-family: Raleway;
+  font-size: 20px;
+  line-height: 23px;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: normal; */
 }
 
 .footer__links {
