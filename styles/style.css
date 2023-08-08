@@ -78,6 +78,12 @@ address {
   justify-self: right;
 }
 
+.header__address-link {
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+  color: #000;
+}
+
 .cover {
   min-height: 757px;
   position: relative;
