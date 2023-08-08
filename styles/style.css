@@ -23,7 +23,7 @@
   list-style: none;
 }
 
-.header__links-item{
+.header__links-item {
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
@@ -31,13 +31,13 @@
   line-height: normal;
 }
 
-.header__link{
+.header__link {
   color: #000;
   text-decoration: none;
 }
 
-.header__links-item::before{
-  content: '\26AA';
+.header__links-item::before {
+  content: "\26AA";
   font-size: 7px;
   display: inline-block;
   margin: 0 12px;
@@ -45,7 +45,7 @@
 }
 
 .header__links-list-item_no-bullit::before {
-  content: '';
+  content: "";
   width: 0;
   height: 0;
   margin: 0;
@@ -148,7 +148,7 @@ address {
 }
 
 .cover__description-text {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: Raleway;
   font-size: 22px;
@@ -164,7 +164,7 @@ address {
   background-color: transparent;
   padding: 12px 32px;
   max-width: 257px;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: Raleway;
   font-size: 22px;
@@ -172,7 +172,7 @@ address {
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
 }
 
 .lots {
@@ -211,7 +211,7 @@ address {
   background-image: url(../images/card-lot-02.jpg);
 }
 
-.lots__item:nth-child(3){
+.lots__item:nth-child(3) {
   background-image: url(../images/card-lot-03.jpg);
 }
 
@@ -222,8 +222,12 @@ address {
   font-style: normal;
   font-weight: 700;
   line-height: 120%; /* 26.4px */
-  text-decoration-line: underline;
   text-transform: uppercase;
+}
+
+.lots__item-link {
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
 }
 
 .lots__item-text {
@@ -249,7 +253,6 @@ address {
   text-decoration: none;
   border-bottom: 1px solid #000;
 }
-
 
 .footer__links {
   display: flex;
