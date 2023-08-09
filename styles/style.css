@@ -104,13 +104,18 @@ address {
   left: 0;
 }
 
-.cover__content {
+/* .cover__content {
+  position: relative;
+
+} */
+.card-link {
   position: relative;
   display: flex;
   height: 100%;
   flex: 1 0 100%;
   flex-direction: column;
   justify-content: space-between;
+  text-decoration: none;
 }
 
 .cover__title {
@@ -194,7 +199,7 @@ address {
   padding: 180px 50px;
 }
 
-.lots__title {
+.lots__heading {
   color: #000;
   font-family: Raleway, serif;
   font-size: 40px;
@@ -205,32 +210,34 @@ address {
   margin: 0 0 27px 40px;
 }
 
-.lots__list {
-  display: grid;
+.lots__card-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
   gap: 25px;
-  grid-template-columns: repeat(3, 1fr);
 }
 
-.lots__item {
+.lots__card-list-item {
   min-height: 450px;
   position: relative;
   padding: 50px 40px;
   background-size: cover;
+  flex: 1 0 430px;
 }
 
-.lots__item:nth-child(1) {
+.lots__card-list-item:nth-child(1) {
   background-image: url(../images/card-lot-01.jpg);
 }
 
-.lots__item:nth-child(2) {
+.lots__card-list-item:nth-child(2) {
   background-image: url(../images/card-lot-02.jpg);
 }
 
-.lots__item:nth-child(3) {
+.lots__card-list-item:nth-child(3) {
   background-image: url(../images/card-lot-03.jpg);
 }
 
-.lots__item-title {
+.card__title {
   color: #fff;
   font-family: Raleway, serif;
   font-size: 22px;
@@ -240,12 +247,11 @@ address {
   text-transform: uppercase;
 }
 
-.lots__item-link {
-  text-decoration: none;
+.underline {
   border-bottom: 1px solid #fff;
 }
 
-.lots__item-text {
+.card__text {
   color: #fff;
   font-family: Raleway, serif;
   font-size: 20px;
@@ -254,7 +260,7 @@ address {
   line-height: 120%;
 }
 
-.lots__readmore {
+.lots__look-more {
   font-family: Raleway, serif;
   font-size: 20px;
   font-style: normal;
@@ -263,7 +269,7 @@ address {
   margin: 30px 0 0 40px;
 }
 
-.lots__readmore-link {
+.lots__look-more-link {
   color: #000;
   text-decoration: none;
   border-bottom: 1px solid #000;
@@ -350,6 +356,11 @@ address {
   color: #000;
   text-decoration: none;
   border-bottom: 1px solid #000;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .footer__link_active {
