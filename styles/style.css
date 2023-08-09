@@ -6,10 +6,11 @@
 .page {
   font-weight: 400;
   background-color: #fff;
+  max-width: 1440px;
+  margin: auto;
 }
 
 .header {
-  min-height: 200px;
   padding: 87px 50px 92px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -18,7 +19,7 @@
 
 .header__links-list {
   display: flex;
-  list-style: none;
+  list-style: circle;
 }
 
 .header__links-item {
@@ -27,6 +28,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-right: 33px;
 }
 
 .header__link {
@@ -39,17 +41,9 @@
   border-bottom: none;
 }
 
-.header__links-item::before {
-  content: "\26AA";
-  font-size: 7px;
-  display: inline-block;
-  margin: 0 12px;
-  vertical-align: middle;
-}
-
-.header__links-list-item_no-bullit::before {
-  content: "";
-  margin: 0;
+.header__links-list-item_no-bullit {
+  list-style: none;
+  padding: 0;
 }
 
 .header__logo {
@@ -58,10 +52,6 @@
 
 .header__logo-image {
   width: 136px;
-}
-
-address {
-  font-style: normal;
 }
 
 .address {
@@ -85,7 +75,6 @@ address {
 }
 
 .cover {
-  min-height: 757px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -104,18 +93,13 @@ address {
   left: 0;
 }
 
-/* .cover__content {
-  position: relative;
-
-} */
-.card-link {
+.cover__content {
   position: relative;
   display: flex;
   height: 100%;
   flex: 1 0 100%;
   flex-direction: column;
   justify-content: space-between;
-  text-decoration: none;
 }
 
 .cover__title {
@@ -165,6 +149,8 @@ address {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-top: 128px;
+  gap: 78px;
 }
 
 .cover__description-text {
@@ -176,7 +162,6 @@ address {
   font-weight: 400;
   line-height: 127%;
   text-transform: uppercase;
-  margin-right: 78px;
   word-spacing: 18px;
 }
 
@@ -223,17 +208,28 @@ address {
   padding: 50px 40px;
   background-size: cover;
   flex: 1 0 430px;
+  background-position: center;
 }
 
-.lots__card-list-item:nth-child(1) {
+.card-link {
+  position: relative;
+  display: flex;
+  height: 100%;
+  flex: 1 0 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.card_type_film {
   background-image: url(../images/card-lot-01.jpg);
 }
 
-.lots__card-list-item:nth-child(2) {
+.card_type_book {
   background-image: url(../images/card-lot-02.jpg);
 }
 
-.lots__card-list-item:nth-child(3) {
+.card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
 }
 
@@ -339,20 +335,12 @@ address {
   justify-self: center;
 }
 
-.footer__links-list {
+.footer__menu-list {
   list-style: none;
   text-align: center;
 }
 
-.footer__links-item {
-  font-family: Raleway, serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.footer__link {
+.footer__menu-link {
   color: #000;
   text-decoration: none;
   border-bottom: 1px solid #000;
@@ -367,14 +355,14 @@ address {
   border-bottom: none;
 }
 
-.footer__links {
+.footer__social-list {
   display: flex;
   gap: 0 48px;
   list-style: none;
   justify-self: end;
 }
 
-.footer__links img {
+.footer__social-list img {
   width: 48px;
   height: 48px;
 }
