@@ -203,10 +203,14 @@
 .lots__card-list-item {
   min-height: 450px;
   position: relative;
-  padding: 50px 40px;
-  background-size: cover;
   flex: 1 0 430px;
+}
+
+.card {
+  padding: 50px 40px;
+  height: 100%;
   background-position: center;
+  background-size: cover;
 }
 
 .card-link {
@@ -215,7 +219,6 @@
   height: 100%;
   flex: 1 0 100%;
   flex-direction: column;
-  justify-content: space-between;
   text-decoration: none;
 }
 
@@ -239,10 +242,7 @@
   font-weight: 700;
   line-height: 120%;
   text-transform: uppercase;
-}
-
-.underline {
-  border-bottom: 1px solid #fff;
+  text-decoration: underline;
 }
 
 .card__text {
