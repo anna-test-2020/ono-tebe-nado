@@ -175,7 +175,7 @@
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
 }
 
 .lots {
@@ -319,7 +319,6 @@
 }
 
 .footer {
-  min-height: 200px;
   padding: 90px 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -342,7 +341,7 @@
   color: #000;
   text-decoration: none;
   border-bottom: 1px solid #000;
-  font-family: Raleway;
+  font-family: Raleway, Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
